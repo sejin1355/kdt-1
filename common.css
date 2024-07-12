@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(39, 45, 42, 0.486);
+}
+
+
+#nav {
+    background-color: rgba(0, 0, 255, 0.575) !important; /* 기본 배경색 */
+    height: 100px;
+    /* Adjust the height as needed */
+}
+
+#nav:hover {
+    background: linear-gradient(to right, rgba(25, 88, 236, 0.685),
+     rgba(85, 215, 248, 0.575)) !important; /* 마우스를 올렸을 때의 배경 그라데이션 */
+}
+
+
+.navbar-brand,.nav-link {
+    line-height: 80px;
+    /* Center vertically */
+    color: rgb(13, 39, 63);
+}
+
+.navbar-brand {
+    margin-left: 100px;
+}
+
+.nav-link {
+    margin-top: 40px;
+}
